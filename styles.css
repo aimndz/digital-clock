@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f6f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1em;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 4em;
+  color: #146c94;
+}
+
+.clock {
+  display: flex;
+  gap: 1em;
+  position: relative;
+}
+
+.clock span {
+  height: 150px;
+  width: 150px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #19a7ce;
+  color: #f6f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  margin-bottom: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.clock .colon {
+  font-size: 6em;
+  font-weight: 800;
+  color: #146c94;
+}
+
+.clock .text {
+  height: 40px;
+  font-size: 1em;
+  background-color: #146c94;
+  font-weight: 400;
+}
+
+.clock #ampm {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: 45px;
+  font-size: 2em;
+  background-color: #146c94;
+  font-weight: 400;
+}
+
+.credits {
+  position: absolute;
+  bottom: 3px;
+  font-weight: 400px;
+  color: #146c94;
+}
